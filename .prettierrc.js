@@ -8,6 +8,9 @@ const config = {
     bracketSameLine: false,
     semi: true,
     endOfLine: 'crlf',
+    plugins: ['prettier-plugin-organize-attributes'],
+    attributeGroups: ['$CODE_GUIDE'],
+    attributeSort: 'ASC',
 };
 
 module.exports = config;
