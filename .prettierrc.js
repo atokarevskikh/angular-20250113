@@ -1,0 +1,13 @@
+const config = {
+    useTabs: false,
+    tabWidth: 4,
+    singleQuote: true,
+    printWidth: 120,
+    trailingComma: 'all',
+    bracketSpacing: true,
+    bracketSameLine: false,
+    semi: true,
+    endOfLine: 'crlf',
+};
+
+module.exports = config;
