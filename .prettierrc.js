@@ -7,7 +7,7 @@ const config = {
     bracketSpacing: true,
     bracketSameLine: false,
     semi: true,
-    endOfLine: 'crlf',
+    endOfLine: 'lf',
     plugins: ['prettier-plugin-organize-attributes'],
     attributeGroups: ['$CODE_GUIDE'],
     attributeSort: 'ASC',
